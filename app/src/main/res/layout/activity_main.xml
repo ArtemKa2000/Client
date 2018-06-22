@@ -20,12 +20,14 @@
         app:layout_constraintTop_toTopOf="parent"
         android:textSize="20dp"/>
         <Button
+            android:id="@+id/btnSend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Send message"
             android:layout_gravity="center"
             android:textSize="20dp"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            android:onClick="buttonSend_Click"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
